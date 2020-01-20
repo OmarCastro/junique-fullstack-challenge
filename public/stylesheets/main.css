@@ -1,0 +1,49 @@
+.form--web-page.form {
+    width: 100%;
+    display: flex;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.form--web-page .form__input {
+    flex: 1 1;
+}
+
+.form--web-page .form__submit-button {
+    flex: 0 0;
+}
+
+.form__submit-button--disabled {
+    pointer-events: none;
+}
+
+
+
+.panel.panel--html-report {
+    width: 100%;
+}
+
+
+
+.field.field--html-report {
+    width: 100%;
+}
+
+.field--html-report .field__label {
+    display: inline-block;
+    width: 33%;
+    text-align: right;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.field--html-report .field__label::after {
+    content: ":";
+}
+
+.field--html-report .field__value {
+    display: inline-block;
+    width: 66%;
+    padding-left: 1em;
+    box-sizing: border-box;
+}

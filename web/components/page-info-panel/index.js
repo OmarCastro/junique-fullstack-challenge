@@ -1,0 +1,1 @@
+export {PageInfoPanel} from "./page-info-panel.component"
