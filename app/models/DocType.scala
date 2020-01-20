@@ -1,6 +1,5 @@
 package models
 
-import javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory
 import play.api.libs.json.{JsObject, Json, OWrites}
 
 import scala.collection.immutable.Map
